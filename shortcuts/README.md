@@ -2,6 +2,8 @@
 
 This creates a removable Home Screen Web Clip that opens **LiveContainer → Husk → your PLAYFy import**. It is not an Apple App Store App Clip or an independent native PLAYFy app. No extra sideload slot is used; existing JIT requirements still apply.
 
+The release also offers the maintainer's exact working `.mobileconfig` directly, without a ZIP. It contains that installation's import/container IDs; generate your own if the supplied file does not target your app folders.
+
 ## Browser generator
 
 1. In PLAYFy's settings inside Husk, use **Generate App Clip**. Save/export its generated profile.

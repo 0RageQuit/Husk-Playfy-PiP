@@ -25,11 +25,13 @@ The icon hides after three seconds. Tap the screen to show it again. LiveContain
 
 ## PLAYFy Home Screen shortcut
 
-The included **launcher generator** uses your own Husk and LiveContainer profiles. It creates a fullscreen Web Clip that opens **LiveContainer → Husk → the selected PLAYFy import**, using the original icon.
+The release includes the maintainer's **exact working PLAYFy `.mobileconfig` shortcut** alongside the Husk IPA. It creates a fullscreen Web Clip that opens **LiveContainer → Husk → PLAYFy**, using its original icon.
+
+That exact file contains the maintainer's import/container IDs. It is not universal: if it does not target your installation, use the **launcher generator** with your own Husk and LiveContainer profiles.
 
 **[Open the browser generator](https://0RageQuit.github.io/Husk-Video-PiP/)** · **[Shortcut guide](shortcuts/README.md)**
 
-You can also download `shortcuts/index.html` and open it locally, or use the Python generator. Input profiles stay in your browser; they are not uploaded. No extra sideloaded app slot is used. A phone-specific profile is not included because its import/container IDs would not work on somebody else's phone.
+You can also download `shortcuts/index.html` and open it locally, or use the Python generator. Input profiles stay in your browser; they are not uploaded by the generator. No extra sideloaded app slot is used. The exact profile is supplied as requested, with the configurable generator available for other installations.
 
 ## Features
 
