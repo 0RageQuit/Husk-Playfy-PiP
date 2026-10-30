@@ -1,15 +1,23 @@
-# Husk Video PiP
+# PLAYFy on iOS with Husk + PiP
 
-An **unofficial Husk 3.1 build** with native, video-only Picture in Picture for Android video apps running on iOS through Husk in LiveContainer.
+Run **PLAYFy TV on your iPhone through Husk in LiveContainer**, with native **video-only Picture in Picture** so the livestream keeps playing while you use other apps. This is an unofficial, modified Husk 3.1 build, tested with PLAYFy v1.7.
 
-**[Download the IPA](../../releases/latest)** · **[Setup](docs/INSTALL.md)** · **[Features](docs/FEATURES.md)** · **[Build from source](docs/BUILD.md)**
+**[Download the Husk IPA](../../releases/latest)** · **[Download PLAYFy APK](https://playfy.net/#dl)** · **[Setup](docs/INSTALL.md)** · **[Features](docs/FEATURES.md)**
 
 The floating window contains decoded video and iOS playback controls, rather than a capture of the Android app's menus or the whole LiveContainer window. This is a Husk compatibility build, not a native iOS port of PLAYFy or CRICFy.
+
+## How it makes PLAYFy work with PiP
+
+Husk provides the Android compatibility layer that runs PLAYFy's original APK on iOS. This build connects Husk's decoded video frames to Apple's native PiP system and keeps the video/audio path running when the host interface is backgrounded. It also includes playback-related fixes for orientation, changing frame sizes and reopening apps.
+
+**LiveContainer → modified Husk → original PLAYFy APK → native iOS video PiP**
+
+Install the custom Husk IPA, import PLAYFy's APK, start a livestream and tap the added PiP icon. PLAYFy's APK stays unchanged; you do not convert it into an IPA. The APK is downloaded separately from [PLAYFy's download page](https://playfy.net/#dl), not hosted in this repository. [Build instructions and source](docs/BUILD.md) are also included.
 
 ## Quick start
 
 1. Download the release IPA. Import it into LiveContainer, replacing Husk **while keeping its existing data**. Keep your previous working IPA as a rollback.
-2. Open your existing video app in Husk, or import your own original APK. Keep the JIT setup your existing Husk installation needs.
+2. Download [PLAYFy APK](https://playfy.net/#dl) and import it into Husk, or open your existing PLAYFy import. Keep the JIT setup your existing Husk installation needs.
 3. Start video and tap the small PiP icon near the upper right. One tap starts a readiness wait; allow up to 15 seconds for iOS to open PiP.
 4. Switch to another app. Use the iOS PiP controls to resize, pause, resume or return to Husk.
 

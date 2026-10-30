@@ -6,7 +6,7 @@
 2. Import it in LiveContainer and replace the existing Husk entry. **Keep the current data container. Do not delete Husk first.**
 3. Fully close the old Husk guest before opening the replacement.
 4. Keep your existing JIT/sideloading setup. This project does not activate JIT or change app limits.
-5. Open your existing PLAYFy/CRICFy import, or import your own original APK.
+5. Download the original [PLAYFy APK](https://playfy.net/#dl) and import it into Husk, or open your existing PLAYFy import. PLAYFy v1.7 is the tested version. The APK stays unchanged and is not hosted in this repository.
 
 For the tested CRICFy 7.3 path, retain the original APK bytes and use `com.cricfytv.sports.apk` as the import filename. Its native verification expects the package name in the mapped APK path. Renaming the file does not change its bytes. Do not patch or re-sign the APK for this build.
 
