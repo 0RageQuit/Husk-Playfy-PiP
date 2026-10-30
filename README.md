@@ -10,7 +10,9 @@ The floating window contains decoded video and iOS playback controls, rather tha
 
 ## Demo
 
-https://github.com/user-attachments/assets/0a52e11d-0f95-4777-ad5f-1f702cd42f83
+![PLAYFy in Husk with native PiP](docs/media/PLAYFy-demo.gif)
+
+[Watch or download the full MP4 demo](https://github.com/0RageQuit/Husk-Video-PiP/raw/refs/heads/main/docs/media/PLAYFy-demo.mp4).
 
 ## How it makes PLAYFy work with PiP
 
