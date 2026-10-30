@@ -1,6 +1,6 @@
 # Setup
 
-1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/latest) and install it in **LiveContainer**.
+1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Playfy-PiP/releases/latest) and install it in **LiveContainer**.
 2. Install [StikDebug](https://github.com/StikDebug/StikDebug/releases/latest), import your device's [pairing file](https://github.com/StikDebug/StikDebug-Guide/blob/main/pairing_file.md), and enable **LocalDevVPN** as described in [StikDebug's setup guide](https://github.com/StikDebug/StikDebug#how-to-enable-jit).
 3. In **LiveContainer → Settings → JIT**, select **StikDebug** as the JIT enabler.
 4. In LiveContainer, **hold Husk → Settings**, enable **Launch with JIT**, then use **JIT Launch Script** to select **`universal.js`**. **`universal.js` should already be present in StikDebug’s Scripts after setup.** Save/export that script to Files, then select it here. This is the setting for **Husk inside LiveContainer**, not PLAYFy's Android settings. On the tested iOS 27 setup, selecting this script is required; enabling JIT alone is not enough.

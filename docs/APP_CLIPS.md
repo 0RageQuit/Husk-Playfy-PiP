@@ -6,7 +6,7 @@ This is a Home Screen Web Clip that launches your existing app through LiveConta
 
 ## Add PLAYFy to the Home Screen
 
-1. Install the [v0.1.0 test IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/tag/v0.1.0) in LiveContainer, keeping your Husk data. Enable JIT as usual.
+1. Install the [v0.1.0 test IPA](https://github.com/0RageQuit/Husk-Playfy-PiP/releases/tag/v0.1.0) in LiveContainer, keeping your Husk data. Enable JIT as usual.
 2. In **Husk's library**, open the **Husk settings for your PLAYFy entry**. This is not PLAYFy's own Android settings menu.
 3. Under **Home Screen**, tap **Generate App Clip**.
 4. Allow the profile download. Open **Settings → Profile Downloaded → Install** and follow iOS's prompts.
