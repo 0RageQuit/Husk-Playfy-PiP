@@ -4,7 +4,7 @@ Run **PLAYFy TV on your iPhone through Husk in LiveContainer**, with native **vi
 
 **[Download the Husk IPA](../../releases/latest)** · **[Download PLAYFy APK](https://playfy.net/#dl)** · **[Setup](docs/INSTALL.md)** · **[Features](docs/FEATURES.md)**
 
-**New: [v0.2.0 App Clip test build](https://github.com/0RageQuit/Husk-Video-PiP/releases/tag/v0.2.0)** fixes Husk's built-in **Generate App Clip** output for LiveContainer. [Add a Home Screen icon](docs/APP_CLIPS.md). The new shortcut path is awaiting phone validation; v0.1.0 remains the previously confirmed PiP release.
+**New: [v0.2.0 App Clip test build](https://github.com/0RageQuit/Husk-Video-PiP/releases/tag/v0.2.0)** fixes Husk's built-in **Generate App Clip** output for LiveContainer. [Add a Home Screen icon](docs/APP_CLIPS.md). The new shortcut path is awaiting phone validation. This is now the only published release; the older release without App Clip support has been removed.
 
 The floating window contains decoded video and iOS playback controls, rather than a capture of the Android app's menus or the whole LiveContainer window. This is a Husk compatibility build, not a native iOS port of PLAYFy or CRICFy.
 
