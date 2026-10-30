@@ -1,0 +1,26 @@
+{
+  "release": "v0.1.0",
+  "upstream": "https://github.com/Leviidev/Husk",
+  "upstream_commit": "7cc583ce3fccd271eea9087483ddc5e49af14d8d",
+  "original_source_archive_sha256": "3ea2cccb002bee26d2c5dc7c583f91bf44127e69326f7ffd74b9310b185c561a",
+  "release_ipa_sha256": "ea900fdc6445360775ecde9beda0ed90ff8d5121371be8b8dcf849123a064662",
+  "base_ipa_sha256": "2da70e1087e4e8af22b4f06e036b849aa53dffa07cfbb0bfdac7d0c512934479",
+  "toolchain": {
+    "llvm": "23.1.4",
+    "jdk": "Temurin 21.0.13+9",
+    "android_build_tools": "35.0.0",
+    "apple_sdk": "iPhoneOS 27.1"
+  },
+  "device_report": {
+    "device": "iPhone 16 Plus",
+    "ios": "27.0.1",
+    "host": "LiveContainer",
+    "latest_ipa_and_fullscreen_shortcut": "User reported working",
+    "known_issue": "CRICFy paused PiP can close after about a minute; PLAYFy reported more stable"
+  },
+  "host_tests": {
+    "arm64_bridge_cases": 148,
+    "relocation_slides": 2,
+    "mailbox_long_stress": "Separate Windows test with modeled references; ongoing at initial release preparation; not Apple API or device playback validation"
+  }
+}
