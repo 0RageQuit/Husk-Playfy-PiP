@@ -8,6 +8,10 @@ Run **PLAYFy TV on your iPhone through Husk in LiveContainer**, with native **vi
 
 The floating window contains decoded video and iOS playback controls, rather than a capture of the Android app's menus or the whole LiveContainer window. This is a Husk compatibility build, not a native iOS port of PLAYFy or CRICFy.
 
+## Demo
+
+https://github.com/user-attachments/assets/0a52e11d-0f95-4777-ad5f-1f702cd42f83
+
 ## How it makes PLAYFy work with PiP
 
 Husk provides the Android compatibility layer that runs PLAYFy's original APK on iOS. This build connects Husk's decoded video frames to Apple's native PiP system and keeps the video/audio path running when the host interface is backgrounded. It also includes playback-related fixes for orientation, changing frame sizes and reopening apps.
@@ -18,11 +22,13 @@ Install the custom Husk IPA, import PLAYFy's APK, start a livestream and tap the
 
 ## Setup
 
-1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/latest).
-2. Install Husk in **LiveContainer**.
-3. Enable **JIT** for LiveContainer/Husk using your preferred JIT method.
-4. [Download PLAYFy APK](https://playfy.net/#dl), rename the file to **`com.playfy.tv.apk`**, then import it into Husk.
-5. Open PLAYFy, play a stream and tap the **PiP icon** to watch while using other apps.
+1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/latest) and install it in **LiveContainer**.
+2. Install [StikDebug](https://github.com/StikDebug/StikDebug/releases/latest), import your device's [pairing file](https://github.com/StikDebug/StikDebug-Guide/blob/main/pairing_file.md), and enable **LocalDevVPN** as described in [StikDebug's setup guide](https://github.com/StikDebug/StikDebug#how-to-enable-jit).
+3. In **LiveContainer → Settings → JIT**, select **StikDebug** as the JIT enabler.
+4. In LiveContainer, **hold Husk → Settings**, enable **Launch with JIT**, then use **JIT Launch Script** to select **`universal.js`**. [Download LiveContainer's universal.js](https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/Resources/universal.js) to Files first if needed. This is the setting for **Husk inside LiveContainer**, not PLAYFy's Android settings. On the tested iOS 27 setup, selecting this script is required; enabling JIT alone is not enough.
+5. Launch Husk from LiveContainer and let StikDebug complete the JIT attachment. Keep LocalDevVPN connected during this process.
+6. [Download PLAYFy APK](https://playfy.net/#dl), rename the file to **`com.playfy.tv.apk`**, then import it into Husk.
+7. Open PLAYFy, play a stream and tap the **PiP icon** to watch while using other apps.
 
 The PiP icon hides after three seconds. Tap the screen to show it again.
 
