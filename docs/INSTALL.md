@@ -10,7 +10,7 @@
 
 Tap the screen to reveal the PiP icon if it is hidden. PLAYFy v1.7 is the tested APK version.
 
-For a Home Screen icon, use the [built-in Generate App Clip guide](APP_CLIPS.md) with the v0.2.0 test build.
+For a Home Screen icon, use the [built-in Generate App Clip guide](APP_CLIPS.md) with the v0.1.0 test build.
 
 ## StikDebug inside LiveContainer
 

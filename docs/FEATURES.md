@@ -13,7 +13,7 @@
 | Resolution changes | Queued output carries its own dimensions/format, preventing small-picture regressions during a quality change. |
 | Reopening apps | Correctly parses escaped spaces in preference keys, addressing the observed second-launch numeric parse failure. |
 | APK verification | Synthetic maps include the existing real APK mapping. APK bytes and signature validation remain intact. |
-| Built-in App Clip (v0.2.0 test) | Husk's existing Generate App Clip button creates a fullscreen profile routed through LiveContainer, using the current app/import and data-container selection. Phone validation pending. |
+| Built-in App Clip (v0.1.0 test) | Husk's existing Generate App Clip button creates a fullscreen profile routed through LiveContainer, using the current app/import and data-container selection. Phone validation pending. |
 
 ## Optional CRICFy preference filter
 
