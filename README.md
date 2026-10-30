@@ -4,6 +4,8 @@ Run **PLAYFy TV on your iPhone through Husk in LiveContainer**, with native **vi
 
 **[Download the Husk IPA](../../releases/latest)** · **[Download PLAYFy APK](https://playfy.net/#dl)** · **[Setup](docs/INSTALL.md)** · **[Features](docs/FEATURES.md)**
 
+**New: [v0.2.0 App Clip test build](https://github.com/0RageQuit/Husk-Video-PiP/releases/tag/v0.2.0)** fixes Husk's built-in **Generate App Clip** output for LiveContainer. [Add a Home Screen icon](docs/APP_CLIPS.md). The new shortcut path is awaiting phone validation; v0.1.0 remains the previously confirmed PiP release.
+
 The floating window contains decoded video and iOS playback controls, rather than a capture of the Android app's menus or the whole LiveContainer window. This is a Husk compatibility build, not a native iOS port of PLAYFy or CRICFy.
 
 ## How it makes PLAYFy work with PiP
@@ -23,6 +25,10 @@ Install the custom Husk IPA, import PLAYFy's APK, start a livestream and tap the
 5. Open PLAYFy, play a stream and tap the **PiP icon** to watch while using other apps.
 
 The PiP icon hides after three seconds. Tap the screen to show it again.
+
+## Add an App Clip
+
+With the v0.2.0 test build, open your PLAYFy entry's **Husk settings → Home Screen → Generate App Clip**, then install the generated profile in iOS Settings. Husk fills in the current app IDs and LiveContainer route automatically. [Full instructions](docs/APP_CLIPS.md).
 
 ## Features
 

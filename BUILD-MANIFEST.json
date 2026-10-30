@@ -1,9 +1,9 @@
 {
-  "release": "v0.1.0",
+  "release": "v0.2.0",
   "upstream": "https://github.com/Leviidev/Husk",
   "upstream_commit": "7cc583ce3fccd271eea9087483ddc5e49af14d8d",
   "original_source_archive_sha256": "3ea2cccb002bee26d2c5dc7c583f91bf44127e69326f7ffd74b9310b185c561a",
-  "release_ipa_sha256": "ea900fdc6445360775ecde9beda0ed90ff8d5121371be8b8dcf849123a064662",
+  "release_ipa_sha256": "272ceba0ec40a5753599730e9dda9169b34c745ced7036861b5332338c32ce30",
   "base_ipa_sha256": "2da70e1087e4e8af22b4f06e036b849aa53dffa07cfbb0bfdac7d0c512934479",
   "toolchain": {
     "llvm": "23.1.4",
@@ -15,8 +15,9 @@
     "device": "iPhone 16 Plus",
     "ios": "27.0.1",
     "host": "LiveContainer",
-    "latest_ipa_and_fullscreen_shortcut": "User reported working",
-    "known_issue": "CRICFy paused PiP can close after about a minute; PLAYFy reported more stable"
+    "known_issue": "CRICFy paused PiP can close after about a minute; PLAYFy reported more stable",
+    "v0.1.0_pip": "User reported working",
+    "v0.2.0_builtin_app_clip": "Build and archive checks passed; phone generation/launch pending"
   },
   "host_tests": {
     "arm64_bridge_cases": 148,

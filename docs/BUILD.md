@@ -25,6 +25,7 @@ Source map:
 - `source/banner-source-package/changes`: modified Java classes.
 - Base `*.c`, `*.S`, `*.ld`: APK mapping/orientation hooks.
 - `source/pip/HuskVideoPiP.m`: native PiP, UI, readiness and transport controls.
+- `source/pip/HuskAppClip.m`: targeted adapter for Husk's generated App Clip profiles when hosted in LiveContainer.
 - `source/pip/frame_mailbox.h`: bounded frame handoff.
 - `source/pip/pip_bridge.c`, `pip_trampoline.S`, `pip_patch.ld`: pinned native hooks.
 

@@ -8,6 +8,8 @@
 
 Tap the screen to reveal the PiP icon if it is hidden. PLAYFy v1.7 is the tested APK version.
 
+For a Home Screen icon, use the [built-in Generate App Clip guide](APP_CLIPS.md) with the v0.2.0 test build.
+
 ## Optional CRICFy filters
 
 Create an empty file named `.husk-hide-cricfy-banner` in the CRICFy import's `java-data` directory using your usual app-document file access. Inside the Husk data container the relative location is:

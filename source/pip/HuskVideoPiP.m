@@ -45,9 +45,11 @@ static _Atomic BOOL hostBackground;
 - (void)tick;
 - (void)setupPiPController;
 @end
+extern void husk_appclip_install(void);
 static HuskVideoPiP *shared;
 __attribute__((constructor)) static void husk_video_pip_boot(void) {
     dispatch_async(dispatch_get_main_queue(), ^{
+        husk_appclip_install();
         if (!shared) shared = [HuskVideoPiP new];
         NSLog(@"HuskVideoPiP: module loaded; native control initialized");
     });
