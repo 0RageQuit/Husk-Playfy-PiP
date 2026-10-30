@@ -1,5 +1,7 @@
 # Troubleshooting
 
+**PLAYFy cannot connect to its servers:** for the tested v1.7 setup, rename the original APK to **`com.playfy.tv.apk` before importing it into Husk**. This is the filename confirmed in the working launch logs; the original download name was not the working import name. Renaming the file does not change its bytes or signature.
+
 **No PiP icon:** confirm the release is installed and actual video is playing through a native player. Tap the screen to reveal the icon. WebView-only players may not be covered.
 
 **Repeated startup taps:** tap once and wait up to 15 seconds for the readiness/startup sequence. It restores the normal player on timeout. Capture the log if it fails rather than reinstalling your APK.

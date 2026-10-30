@@ -19,7 +19,7 @@ Install the custom Husk IPA, import PLAYFy's APK, start a livestream and tap the
 1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/latest).
 2. Install Husk in **LiveContainer**.
 3. Enable **JIT** for LiveContainer/Husk using your preferred JIT method.
-4. [Download PLAYFy APK](https://playfy.net/#dl) and import it into Husk.
+4. [Download PLAYFy APK](https://playfy.net/#dl), rename the file to **`com.playfy.tv.apk`**, then import it into Husk.
 5. Open PLAYFy, play a stream and tap the **PiP icon** to watch while using other apps.
 
 The PiP icon hides after three seconds. Tap the screen to show it again.
