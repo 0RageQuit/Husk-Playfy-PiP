@@ -6,4 +6,4 @@
 - Complete original source: `source/banner-source-package/Husk-3.1-source.zip`. The build verifies its SHA256 and the original executable.
 - The IPA retains its original bundled third-party notices. This repository does not claim ownership of upstream Husk, PLAYFy, CRICFy, their names or icons.
 
-The shortcut generator takes its icon and destination from the user's own profiles. No Android APK, stream endpoint, token, private app-data backup, Apple SDK, provisioning profile or signing identity is distributed here.
+No Android APK, stream endpoint, token, private app-data backup, Apple SDK, provisioning profile or signing identity is distributed here.

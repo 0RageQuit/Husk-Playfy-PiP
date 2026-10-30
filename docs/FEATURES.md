@@ -13,7 +13,6 @@
 | Resolution changes | Queued output carries its own dimensions/format, preventing small-picture regressions during a quality change. |
 | Reopening apps | Correctly parses escaped spaces in preference keys, addressing the observed second-launch numeric parse failure. |
 | APK verification | Synthetic maps include the existing real APK mapping. APK bytes and signature validation remain intact. |
-| Launcher | A fullscreen Web Clip routes through LiveContainer and passes Husk the chosen import's URL. Uses the icon in the user's own profile. |
 
 ## Optional CRICFy preference filter
 
@@ -31,5 +30,4 @@ Saved originals remain unchanged. Read-time filtering survives refresh/reopen wh
 - Only Husk's native MediaCodec video path is covered. WebViews, external players, DRM and unsupported codecs can differ.
 - Decoder/network compatibility otherwise remains that of Husk. This release does not make every stream URL work.
 - A channel selected only in app-internal state can be lost on reconnect if the launch intent was not updated.
-- The launcher inherits the guest's JIT needs. Close another running Husk guest first; Husk cannot load a second engine in one run.
 - Native offsets target the exact pinned Husk 3.1 binary. Do not apply them to another version.

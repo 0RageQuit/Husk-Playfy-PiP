@@ -1,1 +1,0 @@
-pymobiledevice3==11.48.0

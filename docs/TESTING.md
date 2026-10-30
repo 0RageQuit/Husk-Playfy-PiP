@@ -1,6 +1,6 @@
 # Verification
 
-The latest release IPA and fullscreen PLAYFy launcher were reported working on an iPhone 16 Plus running iOS 27.0.1 in LiveContainer. Playback, fullscreen, resolution changes, background recovery and channel switching were reported working. PLAYFy resumed after a one-minute pause. CRICFy's paused-window closure remains unresolved.
+The latest release IPA was reported working on an iPhone 16 Plus running iOS 27.0.1 in LiveContainer. Playback, fullscreen, resolution changes, background recovery and channel switching were reported working. PLAYFy resumed after a one-minute pause. CRICFy's paused-window closure remains unresolved.
 
 The public source tree was rebuilt from scratch with the documented toolchain. Its output matched the user-confirmed working IPA byte for byte (SHA256 in `BUILD-MANIFEST.json`).
 
@@ -22,7 +22,3 @@ After building, the actual native bridge harness can be run with the original ex
 
     python -m pip install unicorn
     python tools/verify_bridge.py --original-executable PATH/TO/ORIGINAL/Husk --llvm "C:/Program Files/LLVM/bin"
-
-The launcher routing tests use only Python's standard library:
-
-    python -m unittest discover -s tests -v

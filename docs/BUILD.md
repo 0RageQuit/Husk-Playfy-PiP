@@ -27,6 +27,5 @@ Source map:
 - `source/pip/HuskVideoPiP.m`: native PiP, UI, readiness and transport controls.
 - `source/pip/frame_mailbox.h`: bounded frame handoff.
 - `source/pip/pip_bridge.c`, `pip_trampoline.S`, `pip_patch.ld`: pinned native hooks.
-- `shortcuts`: generator for each user's own profiles.
 
 SDKs, provisioning profiles and signing identities are not bundled. The output is ad-hoc signed for later import/signing by LiveContainer or the user's normal workflow.

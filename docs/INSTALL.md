@@ -1,33 +1,12 @@
-# Install and use
+# Setup
 
-## Replace Husk
+1. [Download the Husk IPA](https://github.com/0RageQuit/Husk-Video-PiP/releases/latest).
+2. Install Husk in **LiveContainer**.
+3. Enable **JIT** for LiveContainer/Husk using your preferred JIT method.
+4. [Download PLAYFy APK](https://playfy.net/#dl) and import it into Husk.
+5. Open PLAYFy, play a stream and tap the **PiP icon**. You can then switch apps while watching.
 
-1. Keep a copy of your working IPA. Download this project's IPA from Releases.
-2. Import it in LiveContainer and replace the existing Husk entry. **Keep the current data container. Do not delete Husk first.**
-3. Fully close the old Husk guest before opening the replacement.
-4. Keep your existing JIT/sideloading setup. This project does not activate JIT or change app limits.
-5. Download the original [PLAYFy APK](https://playfy.net/#dl) and import it into Husk, or open your existing PLAYFy import. PLAYFy v1.7 is the tested version. The APK stays unchanged and is not hosted in this repository.
-
-For the tested CRICFy 7.3 path, retain the original APK bytes and use `com.cricfytv.sports.apk` as the import filename. Its native verification expects the package name in the mapped APK path. Renaming the file does not change its bytes. Do not patch or re-sign the APK for this build.
-
-## Use PiP
-
-1. Start a video.
-2. Tap the small PiP icon near the upper right. It is slightly left of the corner to avoid the app's controls.
-3. A temporary video-only panel appears. Wait up to 15 seconds. The observed transient startup error gets at most four attempts within that request.
-4. Once PiP opens, swipe Home or switch apps.
-
-The icon appears for three seconds after video begins or you tap the screen. It stays visible while pressed. Use this video icon, rather than LiveContainer's whole-window PiP control.
-
-Pause stops picture/audio without posting an Android activity-pause event. Play requests a fresh player from its captured launch selection; a short reconnect delay is expected. If the app changes channel internally without updating its launch intent, reconnect can return to the original selection.
-
-Closing PiP in the background restores normal host pause behavior. Returning to Husk restores the ordinary player interface and its requested orientation.
-
-**Known issue:** CRICFy's paused PiP can close after about a minute backgrounded. PLAYFy was reported to handle the same interval better.
-
-## Home Screen launcher
-
-Follow [the shortcut guide](../shortcuts/README.md). Use your own two generated profiles; another phone's IDs will not reliably target your import. Close a different running Husk guest before launching PLAYFy this way.
+Tap the screen to reveal the PiP icon if it is hidden. PLAYFy v1.7 is the tested APK version.
 
 ## Optional CRICFy filters
 
